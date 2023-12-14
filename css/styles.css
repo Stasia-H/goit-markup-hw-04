@@ -167,6 +167,10 @@ img {
     
 }
 
+.address-list-item {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .address-list-item-name {
     color: #434455;
     font-family: Roboto, sans-serif;
@@ -175,8 +179,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: block;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .address-list-item-name:hover,
@@ -189,6 +191,7 @@ img {
 
 .hero-section {
     background: #2E2F42;
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     flex-shrink: 0; 
@@ -197,7 +200,8 @@ img {
         rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero/people-office-background.jpg);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   
 }
 
@@ -231,7 +235,8 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff
+    color: #ffffff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -405,7 +410,9 @@ img {
     fill: #F4F4FD;
 }
 
-.link-social:hover {
+.link-social:hover,
+.link-social:focus
+ {
     background-color: #404BBF;
 }
 
