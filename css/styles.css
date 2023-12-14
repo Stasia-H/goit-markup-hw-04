@@ -496,7 +496,6 @@ img {
 
 }
 
-
 .footer-logo-studio {
     color: #F4F4FD;
     font-family: Raleway, sans-serif;
@@ -510,15 +509,15 @@ img {
 
 
  .footer-logo-web {
-    color: #4D5AE5;
+        color: #4D5AE5;
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 16px;
+        display: inline-block;
+        margin-bottom: 16px;
 } 
 
 .footer-text {
@@ -531,9 +530,26 @@ img {
     max-width: 264px;
 }
 
-.text-footer-social {
+.icons-social-footer {
     display: flex;
-    
+    gap: 16px;
+   align-items: center;
+    justify-content: center;
+}
+
+.icons-section-footer {
+    width: 40px;
+    height: 40px
+}
+
+.text-footer-social {
+    display: block;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
 
 .link-social-footer {
@@ -542,8 +558,8 @@ img {
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     transition: background-color 250ms;
 }
 
