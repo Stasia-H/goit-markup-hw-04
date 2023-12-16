@@ -192,6 +192,7 @@ img {
 .hero-section {
     background: #2E2F42;
     max-width: 1440px;
+    margin: 0 auto;
     padding-top: 188px;
     padding-bottom: 188px;
     flex-shrink: 0; 
@@ -333,8 +334,6 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
-    margin-left: 480px;
-    margin-right: 480px;
 }
 
 .team-list {
@@ -368,7 +367,6 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     text-align: center;
     margin-bottom: 8px;
 
@@ -382,8 +380,7 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
-    /* padding-top: 8px; */
+    margin-bottom: 8px;
 }
 
 .icons-social {
@@ -467,7 +464,6 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
